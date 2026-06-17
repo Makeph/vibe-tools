@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vibe-tools"
+version = "0.1.0"
+description = "Small CLIs for the new pains of coding with AI: cost, context, and supply-chain safety."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Aurore Biakou" }]
+keywords = ["llm", "tokens", "cost", "context", "slopsquatting", "supply-chain", "cli"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Environment :: Console",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dependencies = []
+
+[project.optional-dependencies]
+tiktoken = ["tiktoken>=0.5"]
+dev = ["pytest>=7"]
+
+[project.scripts]
+llmcost = "vibe_tools.llmcost:main"
+ctxpack = "vibe_tools.ctxpack:main"
+slopcheck = "vibe_tools.slopcheck:main"
+
+[tool.setuptools]
+packages = ["vibe_tools"]
