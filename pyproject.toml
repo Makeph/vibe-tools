@@ -7,7 +7,7 @@ name = "vibe-tools"
 version = "0.1.0"
 description = "Small CLIs for the new pains of coding with AI: cost, context, and supply-chain safety."
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 license = { text = "MIT" }
 authors = [{ name = "Aurore Biakou" }]
 keywords = ["llm", "tokens", "cost", "context", "slopsquatting", "supply-chain", "cli"]
