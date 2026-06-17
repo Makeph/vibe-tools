@@ -1,3 +1,5 @@
+![CI](https://github.com/Makeph/vibe-tools/actions/workflows/ci.yml/badge.svg)
+
 # vibe-tools
 
 **Small CLIs for the new pains of coding with AI: cost, context, and supply-chain safety.**
