@@ -14,6 +14,8 @@ fix one of those papercuts. Zero dependencies, pure stdlib, one job each.
 > [Why these three](#why-these-three)). The goal isn't a framework - it's three
 > things you'd actually drop into a shell alias.
 
+![vibe-tools demo](assets/demo.gif)
+
 ```bash
 pip install -e .        # or just run with `python -m vibe_tools.<tool>`
 ```
