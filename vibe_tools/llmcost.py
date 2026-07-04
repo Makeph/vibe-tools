@@ -23,7 +23,7 @@ from pathlib import Path
 from ._common import estimate_tokens, human_int, iter_source_files, read_text
 
 HERE = Path(__file__).resolve().parent
-DEFAULT_PRICING = HERE.parent / "pricing.json"
+DEFAULT_PRICING = HERE / "pricing.json"
 
 
 def load_pricing(path: Path) -> dict[str, dict[str, float]]:

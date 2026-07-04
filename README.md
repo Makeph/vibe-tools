@@ -50,7 +50,7 @@ claude-opus-4-8        0.0181     0.0375      0.0556
 
 - Token counts default to an offline heuristic (~4 chars/token). Pass
   `--tokenizer tiktoken` for exact `cl100k_base` counts (needs `tiktoken`).
-- Prices live in [`pricing.json`](pricing.json) and are **indicative** — verify
+- Prices live in [`pricing.json`](vibe_tools/pricing.json) and are **indicative** — verify
   against each provider's pricing page, or override with `--pricing your.json`.
 
 ## `ctxpack` — pack a repo into one LLM-ready file

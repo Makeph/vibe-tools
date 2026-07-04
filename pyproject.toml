@@ -35,3 +35,6 @@ slopcheck = "vibe_tools.slopcheck:main"
 
 [tool.setuptools]
 packages = ["vibe_tools"]
+
+[tool.setuptools.package-data]
+vibe_tools = ["pricing.json"]
