@@ -2,7 +2,7 @@
 context file, so you stop copy-pasting files into a chatbot one by one.
 
 Pain it solves (r/ChatGPTCoding, recurring 2026 - people manually paste whole
-codebases into Claude/ChatGPT, blow the context window with node_modules and
+codebases into an LLM chat, blow the context window with node_modules and
 lockfiles, and occasionally leak an API key into the prompt):
 
     ctxpack .                         # -> stdout, a single markdown bundle
