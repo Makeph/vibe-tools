@@ -3,7 +3,7 @@ requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "vibe-tools"
+name = "slopkit"
 version = "0.1.0"
 description = "Small CLIs for the new pains of coding with AI: cost, context, and supply-chain safety."
 readme = "README.md"

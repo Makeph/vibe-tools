@@ -3,7 +3,7 @@ name: PyPI
 # Build a pure-Python wheel + sdist and publish to PyPI via Trusted Publishing
 # on a version tag. No API token needed.
 #
-# One-time setup on PyPI: add a Trusted Publisher for project `vibe-tools` ->
+# One-time setup on PyPI: add a Trusted Publisher for project `slopkit` ->
 # owner `Makeph`, repo `vibe-tools`, workflow `pypi.yml`, environment `pypi`.
 
 on:
